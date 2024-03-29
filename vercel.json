@@ -1,7 +1,7 @@
 {
   "functions": {
     "api/**/*.js": {
-      "runtime": "nodejs14.x"
+      "runtime": "nodejs14"
     }
   },
   "routes": [
