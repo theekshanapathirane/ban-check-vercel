@@ -7,7 +7,9 @@
     } 
   ] ,
   "routes": [
-    { "src": "/api/ban_check/:uid", "dest": "node.js" },
-    { "handle": "filesystem" }
+    { 
+      "src": "/(.*)", 
+      "dest": "node.js" 
+    }
   ]
 }
