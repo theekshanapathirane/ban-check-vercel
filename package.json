@@ -1,0 +1,16 @@
+{
+    "name": "flask-to-nodejs",
+    "version": "1.0.0",
+    "description": "Convert Flask app to Node.js",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "author": "Your Name",
+    "license": "ISC",
+    "dependencies": {
+      "axios": "^0.24.0",
+      "express": "^4.17.3"
+    }
+  }
+  
