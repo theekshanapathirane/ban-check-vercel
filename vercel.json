@@ -1,11 +1,10 @@
 {
-  "functions": {
-    "api/**/*.js": {
-      "runtime": "nodejs14.0.0"
-    }
-  },
+  "version": 2,
+  "builds": [
+    { "src": "server.js", "use": "@vercel/node" }
+  ],
   "routes": [
-    { "src": "/api/ban_check/:uid", "dest": "/api/ban_check/:uid" },
+    { "src": "/api/ban_check/:uid", "dest": "server.js" },
     { "handle": "filesystem" }
   ]
 }
